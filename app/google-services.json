@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "978888347241",
+    "firebase_url": "https://fir-authfb-75d67.firebaseio.com",
+    "project_id": "fir-authfb-75d67",
+    "storage_bucket": "fir-authfb-75d67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978888347241:android:2dfe1f2200bfd4e8",
+        "android_client_info": {
+          "package_name": "com.montini.firebaseauthfb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978888347241-spbsjiofqpbqm62rgh9o1hv0ps0vmpmh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.montini.firebaseauthfb",
+            "certificate_hash": "af72d2ce57dbbd12e87a2c06293d04f2fa41a3b7"
+          }
+        },
+        {
+          "client_id": "978888347241-ahlhua4jhbcbo0h1dr8eha7qd3seh5ik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.montini.firebaseauthfb",
+            "certificate_hash": "cfd462bc6252946a24bb7ef26de40e284e5b9cd2"
+          }
+        },
+        {
+          "client_id": "978888347241-ef2gj2fru8o0k4vcejfi73ci5e44v649.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2avSnk3uzuHchcyp8aQbTuTRM2lfsAj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978888347241-f6vnrflpjk7u64g96io8ga853tjudobs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978888347241:android:cd6b7274d484aae5",
+        "android_client_info": {
+          "package_name": "com.montini.firebaseauthg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978888347241-k2i9smo4m307gaq2t5ro09fu2obe6tkv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.montini.firebaseauthg",
+            "certificate_hash": "cfd462bc6252946a24bb7ef26de40e284e5b9cd2"
+          }
+        },
+        {
+          "client_id": "978888347241-gaqk1j657nnaiv8c5s552lf65mifmlgo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.montini.firebaseauthg",
+            "certificate_hash": "af72d2ce57dbbd12e87a2c06293d04f2fa41a3b7"
+          }
+        },
+        {
+          "client_id": "978888347241-ef2gj2fru8o0k4vcejfi73ci5e44v649.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2avSnk3uzuHchcyp8aQbTuTRM2lfsAj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978888347241-f6vnrflpjk7u64g96io8ga853tjudobs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

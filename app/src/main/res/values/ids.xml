@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Your Facebook App ID. See README.
+    -->
+    <string name="facebook_app_id">2370365369748962</string>
+    <string name="fb_login_protocol_scheme">fb2370365369748962</string>
+
+</resources>
