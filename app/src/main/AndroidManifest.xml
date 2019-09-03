@@ -21,7 +21,7 @@
             android:name=".FacebookLoginActivity"
             android:label="@string/label_facebook_login" />
 
-        <activity android:name=".ChooserActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

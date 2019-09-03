@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -43,7 +44,6 @@
 
     </LinearLayout>
 
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -52,11 +52,22 @@
 
         <com.google.android.gms.common.SignInButton
             android:id="@+id/signInButton"
-            android:layout_width="wrap_content"
+            android:layout_width="217sp"
             android:layout_height="wrap_content"
-            android:foregroundGravity="right"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
             android:visibility="visible"
-            tools:visibility="visible" />
+            tools:visibility="visible"
+            app:buttonSize="wide"/>
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/buttonFacebookLogin"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/signInButton" />
 
         <LinearLayout
             android:id="@+id/signOutAndDisconnect"
@@ -76,7 +87,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/sign_out"
-                android:theme="@style/ThemeOverlay.MyDarkButton" />
+                android:theme="@style/ThemeOverlay.MyDarkButton"
+                android:visibility="gone"/>
 
             <Button
                 android:id="@+id/disconnectButton"
@@ -85,7 +97,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/disconnect"
-                android:theme="@style/ThemeOverlay.MyDarkButton" />
+                android:theme="@style/ThemeOverlay.MyDarkButton"
+                android:visibility="gone"/>
         </LinearLayout>
 
     </RelativeLayout>
