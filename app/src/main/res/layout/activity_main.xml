@@ -48,26 +48,32 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/grey_300">
+        android:background="@color/grey_300"
+        android:layout_gravity="center">
 
         <com.google.android.gms.common.SignInButton
             android:id="@+id/signInButton"
-            android:layout_width="217sp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:padding="5dp"
-            android:visibility="visible"
-            tools:visibility="visible"
-            app:buttonSize="wide"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp" />
 
         <com.facebook.login.widget.LoginButton
             android:id="@+id/buttonFacebookLogin"
-            android:layout_width="200sp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
             android:paddingTop="11dp"
             android:paddingBottom="11dp"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@+id/signInButton" />
+            android:paddingLeft="13dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_below="@+id/signInButton"
+            />
+
+
+
 
         <LinearLayout
             android:id="@+id/signOutAndDisconnect"
