@@ -67,13 +67,11 @@
             android:paddingTop="11dp"
             android:paddingBottom="11dp"
             android:paddingLeft="13dp"
+            android:paddingRight="13dp"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_below="@+id/signInButton"
             />
-
-
-
 
         <LinearLayout
             android:id="@+id/signOutAndDisconnect"
